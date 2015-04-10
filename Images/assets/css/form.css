@@ -1,0 +1,215 @@
+
+.blocks {
+     
+    width:20em;
+}
+
+#formbook {
+    height: 55em;
+    width:820px;
+    margin:0 auto;
+
+    
+}
+#now {
+    position: relative;
+    
+}
+#la {
+ position: relative;
+  top: 0.5em
+ 
+}
+#lat {
+    position: relative;
+    left: 24.5em;
+    top: -18.4em;
+}
+#userdetail {
+    position: relative;
+    top: -8em;
+   left: 12em;
+   line-height: 1em;
+     
+}
+#num {
+    width: 3em;
+    position: relative;
+    
+}
+#userdatailtwo {
+    position: relative;
+    top: -26.9em;
+  left: 35em;
+  line-height: 1em;
+  
+}
+#secondbformpart {
+    position: absolute;
+    width: auto;
+}
+
+
+
+#secpart{
+    position: relative;
+    top:-26em;
+    
+}
+
+#line1{
+    position: relative;
+   
+    width:51em;
+    left:-5em;
+}
+#line2{
+    position: relative;
+    top:-25em;
+    width:51em;
+    left:-5em;
+}
+h4{
+    position: relative;
+    top:-24.5em;
+    color: darkblue;
+    
+}
+
+#bu{
+    position: relative;
+    top:-28em;
+    left:10em;
+}
+
+#booklabel{
+    position: relative;
+    top:-31.5em;
+    left:12em;
+}
+
+#name{
+    position: relative;
+    top:-30em;
+    color:darkblue;
+}
+
+#lab{
+    position: relative;
+    top:-35.4em;
+    left:12em;
+    line-height: 1.2em;
+    width:20em;
+   
+}
+
+#cbox{
+    position: relative;
+    top:-42.5em;
+    left:10em;
+    background-color: transparent;
+    line-height:1.2em;
+    
+}
+
+#red{
+    position: relative;
+    top:-5em;
+    left:28em;
+}
+
+#dateinput{
+    position: relative;
+     top:-49.9em;
+    left:28em;
+    line-height: 1.2em;
+    width:25em;
+}
+
+#sub{
+   position: relative;
+     top:-48em;
+    left:10em;
+    line-height: 1.2em;
+    width:150px;
+} 
+
+#formsubmit{
+    width: 20em;
+    height: 3em;
+    color:grey;
+    background-color: lightgrey;
+    
+}
+.req{
+    position:relative;
+    color:red;
+    font-size: xx-small;
+}
+
+
+#lastname{
+    width:6em;
+}
+   
+}
+
+#phonealertmes{
+    position: absolute;
+    left:3em;
+}
+#firstname{
+    position: relative;
+    width:10em;
+    left:0em;
+
+}
+#alert{
+    position: absolute;
+    top:3em;
+    left:6em;
+}
+/*email alert message property*/
+#emailalert{
+    position: absolute;
+    top:9em;
+    left:6em;
+}
+/*email input type position*/
+#eme{
+    position: relative;
+    width:10em;
+}
+/*number of passangers message only */
+#numalert{
+    position: absolute;
+   top:15em;
+  
+    
+}
+#adventure{
+    position: relative;
+    top: -1em;
+}
+
+#phonenum{
+    position: relative;
+    width:10em;
+}
+/*mobile input field*/
+#mobilenum{
+    position: relative;
+    width:10em;
+}
+/*main booking form */
+#bformcommentlabel{
+   position: relative;
+   top:6em;
+}
+#bformremark{
+   position:relative;
+   left:-18em;
+  resize: none;
+   
+   
+}

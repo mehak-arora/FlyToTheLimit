@@ -1,0 +1,198 @@
+
+/****** start of header******/
+
+body
+{
+    width:100%;
+    height: 100%;
+    
+}
+  
+
+
+#logo{
+    height:10em;
+    float:left;
+    
+}
+#hbar{
+    background-image: /*url("../Fttl/images/Capture.png");*/
+    background-repeat: repeat;
+    height: 2em;
+    width: auto;
+    clear:right;
+    background-color:darkblue;
+    
+    
+}
+
+.headermail{
+    display:inline-block;
+    vertical-align: middle;
+    
+}
+
+.headerphone{
+    display:inline-block;
+    vertical-align: middle;
+}
+ #ph{
+    height:2.5em;
+    width:2em;
+    
+
+}
+#mail{
+   height:2em;
+    width:2em;
+    
+   
+}
+#contact {
+    float:right;
+    margin-top:2em;
+    margin-right: 2em;
+   
+    
+    
+}
+#connum {
+    
+    color: blue;
+    margin:0;
+    
+}
+#conmail {
+    
+    color: blue;
+}
+/*end of hedare*/
+
+
+
+/*start of navigation links*/
+#menu{
+    
+    width:auto;
+    height:5em;
+    padding-top:1em;
+  
+ 
+    
+}
+.mainmenu ul{
+    
+    
+   list-style:none;
+   width:auto;
+   margin:0 auto;
+   z-index:1000;
+   text-align: center;
+   
+   padding-right:1.5em;
+   padding-left:1.5em;
+ 
+
+   
+   
+   
+}
+
+
+.mainmenu li{
+    background-color:lightgrey;
+   display: inline-block;
+    padding-right:1.8em;
+    padding-top:0.9em;
+    padding-bottom:0.9em;
+    padding-left:1.2em;
+    
+    width:5.3em;
+   
+    text-align: center;
+    margin:0 auto;
+}
+
+
+.mainmenu li:hover{
+    background-color: darkblue;
+    color:white;
+}
+.mainmenu a{
+ text-decoration:none;
+ color:black;
+ margin:0 auto;
+ 
+
+}
+
+
+
+ 
+ a:hover{
+   
+    color:white;
+ }
+/***** End of navigation links*****/
+
+
+/******start of footer******/
+footer{
+    
+    background-color:lightgrey;
+    height:auto;
+    border-top: groove;
+    border-width:thin;
+    width:100%;
+    
+    overflow: hidden;
+
+}
+
+.fmenu{
+    display:inline-block;
+    vertical-align: middle;
+    color:darkblue;
+    font-weight: bold;
+    
+    
+}
+.fmenu ul{
+    list-style: none;
+   
+}
+.fmenu li{
+    padding-top:0.25em;
+     color:darkblue;
+        
+        
+    }
+.fmenu a{
+    text-decoration: none;
+    
+} 
+
+#fooad{
+    
+    
+    font-weight: bold;
+    color:darkblue;
+    margin-left: 10em;
+   
+}
+
+.footerwrapper { 
+      
+   margin: 0 auto;
+   width:840px;
+
+}
+    
+
+
+/**********End of Footer**********/
+
+
+
+
+

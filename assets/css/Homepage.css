@@ -1,0 +1,752 @@
+/******properties of header******/
+body
+{
+    width:100%;
+    height: 100%;
+}
+
+#logo{
+    height:10em;
+    float:left;
+   }
+#hbar{
+    background-image: /*url("../Fttl/images/Capture.png");*/
+    background-repeat: repeat;
+    height: 2em;
+    width: auto;
+    clear:right;
+    background-color:darkblue;
+   }
+
+.headermail{
+    display:inline-block;
+    vertical-align: middle;
+   }
+
+.headerphone{
+    display:inline-block;
+    vertical-align: middle;
+   }
+ #ph{
+    height:2.5em;
+    width:2em;
+   }
+#mail{
+   height:2em;
+    width:2em;
+   }
+#contact {
+    float:right;
+    margin-top:2em;
+    margin-right: 2em;
+   }
+#connum {
+    
+    color: blue;
+    margin:0;
+   }
+#conmail{
+    
+    color: blue;
+   }
+
+#menu{
+    width:auto;
+    height:5em;
+    padding-top:1em;
+   }
+.mainmenu ul{
+   list-style:none;
+   width:auto;
+   margin:0 auto;
+   z-index:1000;
+   text-align: center;
+   padding-right:1.5em;
+   padding-left:1.5em;
+   }
+.mainmenu li{
+    background-color:lightgrey;
+    display: inline-block;
+    width: 8.3em;
+    margin:0 auto;
+    height: 2.5em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.mainmenu a{
+ text-decoration:none;
+ color:black;
+    }
+
+.mainmenu li:hover{
+   background-color:darkblue;
+   
+}  
+.mainmenu li:hover a{
+   color:white;
+   
+}
+
+/***** End of header*****/
+
+
+/******properties of footer menu and address******/
+footer{
+    
+    background-color:lightgrey;
+    height:auto;
+    border-top: groove;
+    border-width:thin;
+    width:100%;
+    overflow: hidden;
+
+}
+
+.fmenu{
+    display:inline-block;
+    vertical-align: middle;
+    color:darkblue;
+    font-weight: bold;
+    
+   }
+.fmenu ul{
+    list-style: none;
+   
+}
+.fmenu li{
+    padding-top:0.25em;
+     color:darkblue;
+        
+      }
+.fmenu a{
+    text-decoration: none;
+   } 
+
+#fooad{
+    font-weight: bold;
+    color:darkblue;
+    margin-left: 10em;
+   }
+
+.footerwrapper { 
+   margin: 0 auto;
+   width:840px;
+
+}
+    
+/**********End of Footer**********/
+
+/****** (main home page display position)******/
+
+#container{
+   margin : 0 auto;
+   width:70%;
+   
+}
+.mainslider{
+   overflow: hidden;
+   position: relative;
+   margin:0 auto;
+   width:820px;
+   height: 360px;
+   clear: both; 
+}
+#mainflight{
+   width:825px;
+   padding-top: 1em;
+   padding-bottom:1em;
+   margin:0 auto;
+   height:auto;
+   }
+
+.flights{
+  display:inline-block;
+   }
+.ssphoto{
+    width:250px;
+    height:160px;
+   }
+.sc{
+    font-size:x-large;
+    font-weight: bold;
+   }
+.rm{
+    
+    width:139px;
+    height:30px;
+    }
+.rm:hover{
+   background-color: darkblue;
+   color:white;
+   }
+
+.no{
+    width:250px;
+    height:auto;
+    text-align: justify;
+   }
+
+#traflight{
+    margin-left:1em;
+    margin-right:1em;
+   }
+
+#scenicflight{
+   margin-left:1em;
+   }
+.photo2{
+   width:820px;
+   height:360px;
+   }
+.arrows{
+   
+   top:30em;
+   width:1em;
+   height:3em;
+   }   
+.mainbutton{
+   top:0.5em;
+   height:1em;
+   left:80em;
+   background-color:darkblue;
+  }
+/*End of homepage*/
+      
+/***   about us page****/
+ .company{
+     width:51em;
+    height:auto;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+
+.cont{
+    background-color:white;
+    display: inline-block;
+    height:auto;
+    width:20em;
+    text-align:left;
+    
+   }
+
+#profilephoto{
+
+   width:354px;
+   height:299px;
+   float: right;
+   }
+
+
+#emp{
+   width:280px;
+   height:280px;
+   
+    }
+
+
+#overview{
+    text-align: justify;
+    top:2.3em;
+    width:25em;
+    height:13em;
+   }
+
+
+/*End of Aboust us page*/
+
+
+.co{
+    
+    color:darkblue;
+   }
+
+
+.heading{
+    color:darkblue;
+    }
+
+
+
+#companyoverview{
+    height:10em;
+  }
+
+#meetourstaff{
+   width:51em;
+   margin:0 auto;
+  }
+
+.staff{
+    border-style: groove;
+    border-width: thin;
+    display:inline-block;
+    height:13em;
+    width:22em;
+    margin:1em;
+    background-color: white;
+    
+   }
+
+.hansblock {
+   display:inline-block; 
+   }
+.wenblock {
+   display:inline-block;
+   }
+.johnblock{
+   display:inline-block;
+   }
+.finnblock{
+   display:inline-block;
+   }
+/*** class of staff photo that applies to each one****/
+.staffphoto{
+    width:10em;
+    height:8em;
+    padding-left:0.5em;
+   }
+.staffname{
+   color: darkblue;
+   padding-left:0.5em;
+   }
+.stdes{
+  width: 10em;
+  }
+
+/***main conatiner on the main flight page****/
+#mnflight{
+    background-color:lightgrey;
+    width:51em;
+    height:49.3em;
+    margin:0 auto;
+   }
+
+/*** propertiesof big tile of the flight inforamtion in white color****/
+.bacflight{
+    background-color:white;
+    position:relative;
+    width:49em;
+    height:14.5em;
+    left:1em;
+    top:1em;
+    
+   }  
+/***size of flight photo****/
+.flightphoto{
+    width:25em;
+    height:13em;
+    position: relative;
+    top:0.8em;
+    left:1em;
+   }
+/**** properties for the content*****/
+.flightcontent{
+    position:absolute;
+    left:27em;
+    top:-0.55em;
+    text-align: justify;
+    right:1em;
+    }
+
+.ontop{
+background-color:background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(76,76,76,0.73) 56%, rgba(38,38,38,0.59) 84%, rgba(19,19,19,0.95) 98%, rgba(19,19,19,1) 100%); /* FF3.6+ */
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(76,76,76,1)), color-stop(56%,rgba(76,76,76,0.73)), color-stop(84%,rgba(38,38,38,0.59)), color-stop(98%,rgba(19,19,19,0.95)), color-stop(100%,rgba(19,19,19,1))); /* Chrome,Safari4+ */
+background:-webkit-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(76,76,76,0.73) 56%,rgba(38,38,38,0.59) 84%,rgba(19,19,19,0.95) 98%,rgba(19,19,19,1) 100%); /* Chrome10+,Safari5.1+ */
+background:-o-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(76,76,76,0.73) 56%,rgba(38,38,38,0.59) 84%,rgba(19,19,19,0.95) 98%,rgba(19,19,19,1) 100%); /* Opera 11.10+ */
+background:-ms-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(76,76,76,0.73) 56%,rgba(38,38,38,0.59) 84%,rgba(19,19,19,0.95) 98%,rgba(19,19,19,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(76,76,76,1) 0%,rgba(76,76,76,0.73) 56%,rgba(38,38,38,0.59) 84%,rgba(19,19,19,0.95) 98%,rgba(19,19,19,1) 100%); /* W3C */
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+    color: white;
+    position: relative;
+    width:9em;
+    height:1.5em;
+    right:29.1em;
+    text-align: center;
+    top:-13.5em;
+    
+   }
+
+/**** position of scenic tile***/
+#scenic{
+    top:3em;
+    position: relative;
+   }
+
+/****position of nelson tile****/ 
+#nelson{
+     position:relative;
+     top:5em;
+     
+   }
+/***properties of our gallery****/
+#maingallery{
+    width:860px;
+    height:auto;
+    margin:0 auto;
+
+   }
+.ims{
+    width:258px;
+    height:221px;
+    display: inline-block;
+    margin-left:1.2em;
+    padding-bottom:1.5em;
+   }
+.gallery{
+    
+    top:2em;
+   }
+
+.chgal{
+   top:4em;
+   }
+.planes{
+
+    top:6em
+   }  
+
+/* Conatct us page */
+
+
+
+
+#maincontact{
+  
+   width:50.8em;
+   height:auto;
+   border-style: groove;
+   left:35em;
+   border-width:thin;
+    margin:0 auto;
+   
+   }
+
+.footwrapper{
+   background-color:darkblue;
+   width:50.8em;
+   height:20em;
+   top:30.9em;
+  }  
+
+.footcontact{
+   display:inline-block;
+   margin-left:2em;
+   color:blue;
+   }
+
+.town{
+  
+   text-align: center;
+   width:8em;
+   background-color: white;
+  }
+
+#wana{
+  
+background-color: white;
+text-align: center;
+   
+   }
+
+#qu{
+
+color:white;
+}
+
+#wa{
+  
+color:white;
+font-size:medium;
+}
+
+#map{
+   
+   right:28em;
+   width:50.9em;
+   }
+
+
+/* line 548 is the end of conatct page 
+
+/*site map */
+#mainsitemapphoto{
+ margin:0 auto;
+ width:800px;
+  }
+
+#site{
+   width:850px;  
+   }
+
+/*start of all the pop up and overlays*/
+
+.whitbackpop {
+    
+    background-color: white;
+    padding:2em;
+    width:840px;
+    height:auto;
+    display:none;
+    z-index:902;
+    margin:0 auto;
+    opacity: 1.2;
+    margin-top:2em;
+    
+   }
+.ssphotobig {
+    width: 820px;
+    height: 360px;
+   }
+
+.popt {
+    width: 790px;
+    background-color: white;
+    padding: 1em;
+   }
+.popback {
+    position:fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.5);
+    display:none ;
+    z-index:10000;
+   }
+.cros {
+    
+   float:right;
+    text-decoration: none;
+    color: black;
+   }
+   
+   /* line 602- 625 is css of our gallery pop up */
+.purplepop{
+    background-color:lightgrey;
+    width:32em;
+    margin:0 auto;
+    padding:4em;
+    display: none;
+    z-index:2020;
+   }
+    
+.gallerycross{
+    
+
+    float:right;
+    text-decoration: none;
+    color: black;
+    
+   }
+.bigimage{
+   
+    width:32em;
+    height:25em;
+    margin:0 auto;
+   }
+/* start of booking form*/
+   
+.blocks {
+     
+    width:20em;
+   }
+
+#formbook {
+    height: 55em;
+    width:820px;
+    margin:0 auto;
+
+   }
+#now {
+    position: relative;
+    
+}
+#la {
+ position: relative;
+  top: 0.5em
+ 
+}
+#lat {
+    position: relative;
+    left: 24.5em;
+    top: -18.4em;
+}
+#userdetail {
+    position: relative;
+    top: -8em;
+   left: 12em;
+   line-height: 1em;
+     
+}
+#num {
+    width: 3em;
+    position: relative;
+    
+   }
+#userdatailtwo {
+    position: relative;
+    top: -26.9em;
+  left: 35em;
+  line-height: 1em;
+  
+   }
+#secondbformpart {
+    position: absolute;
+    width: auto;
+   }
+#secpart{
+    position: relative;
+    top:-26em;
+    
+   }
+
+
+
+h4{
+    position: relative;
+    top:-24.5em;
+    color: darkblue;
+    
+   }
+
+#bu{
+    position: relative;
+    top:-28em;
+    left:10em;
+   }
+
+#booklabel{
+    position: relative;
+    top:-31.5em;
+    left:12em;
+   }
+
+#name{
+    position: relative;
+    top:-30em;
+    color:darkblue;
+   }
+
+#lab{
+    position: relative;
+    top:-35.4em;
+    left:12em;
+    line-height: 1.2em;
+    width:20em;
+   
+   }
+
+#cbox{
+    position: relative;
+    top:-42.5em;
+    left:10em;
+    background-color: transparent;
+    line-height:1.2em;
+    
+   }
+
+#red{
+    position: relative;
+    top:-5em;
+    left:28em;
+   }
+
+#dateinput{
+    position: relative;
+     top:-49.9em;
+    left:28em;
+    line-height: 1.2em;
+    width:25em;
+   }
+
+#sub{
+   position: relative;
+     top:-48em;
+    left:10em;
+    line-height: 1.2em;
+    width:150px;
+   } 
+
+#formsubmit{
+    width: 20em;
+    height: 3em;
+    color:grey;
+    background-color: lightgrey;
+    
+   }
+.req{
+    position:relative;
+    color:red;
+    font-size: xx-small;
+   }
+
+
+#lastname{
+    width:6em;
+   }
+   
+
+
+#phonealertmes{
+    position: absolute;
+    left:3em;
+   }
+#firstname{
+    position: relative;
+    width:10em;
+    left:0em;
+
+   }
+#alert{
+    position: absolute;
+    top:3em;
+    left:6em;
+   }
+/*email alert message property*/
+#emailalert{
+    position: absolute;
+    top:9em;
+    left:6em;
+   }  
+/*email input type position*/
+#eme{
+    position: relative;
+    width:10em;
+   }
+/*number of passangers message only */
+#numalert{
+    position: absolute;
+   top:15em;
+  
+   }
+#adventure{
+    position: relative;
+    top: -1em;
+   }
+
+#phonenum{
+    position: relative;
+    width:10em;
+   }
+/*mobile input field*/
+#mobilenum{
+    position: relative;
+    width:10em;
+   }
+/*main booking form */
+#bformcommentlabel{
+   position: relative;
+   top:6em;
+  }
+#bformremark{
+   position:relative;
+   left:-18em;
+   resize: none;
+  }
+
+.detail{
+   font-weight: bold;
+   color:darkblue
+}
+/*End of booking form*/

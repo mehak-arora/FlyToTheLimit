@@ -1,0 +1,390 @@
+
+
+/****** (main home page display position)******/
+
+
+
+#container{
+   margin : 0 auto;
+   width:70%;
+  
+  
+
+}
+.mainslider{
+   overflow: hidden;
+   position: relative;
+   margin:0 auto;
+   width:820px;
+   height: 360px;
+   clear: both; 
+}
+#mainflight{
+   width:825px;
+   padding-top: 1em;
+   padding-bottom:1em;
+   margin:0 auto;
+   height:auto;
+   
+}
+
+.flights{
+  
+   display:inline-block;
+   
+}
+.ssphoto{
+    width:250px;
+    height:160px;
+}
+.sc{
+    font-size:x-large;
+    font-weight: bold;
+}
+
+
+.rm{
+    
+    width:139px;
+    height:30px;
+
+}
+.rm:hover{
+   background-color: darkblue;
+   color:white;
+}
+
+.no{
+    width:250px;
+    height:auto;
+    text-align: justify;
+}
+
+#traflight{
+    
+    margin-left:1em;
+     margin-right:1em;
+}
+
+#scenicflight{
+   margin-left:1em;
+    
+    
+}
+
+/* same size for all display photos*/
+.photo2{
+   width:820px;
+   height:360px;
+   
+}
+/*seting up the position*/
+
+.arrows{
+   
+   top:30em;
+   width:1em;
+   height:3em;
+   
+}   
+/* buttons property  */
+.mainbutton{
+   
+   top:0.5em;
+   height:1em;
+   left:80em;
+   background-color:darkblue;
+   
+   
+   
+}
+/***main conatiner on the about us page****/
+ .company{
+     width:51em;
+    height:auto;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+
+
+/*** main big tile of the company overview in white color ****/
+
+
+.cont{
+    background-color:white;
+    display: inline-block;
+    height:auto;
+    width:20em;
+    text-align:left;
+    
+}
+/**** It is a div of emp photo ***/
+#profilephoto{
+
+   width:354px;
+   height:299px;
+   float: right;
+}
+
+/**** it is the position of emp photo***/
+
+#emp{
+   width:280px;
+   height:280px;
+   
+}
+
+/*** it is div of comapny overview contant****/
+#overview{
+    text-align: justify;
+    top:2.3em;
+    width:25em;
+    height:13em;
+    
+
+}
+
+/**** The company Overview position****/
+.co{
+    
+    color:darkblue;
+}
+/*** meet our staff heading properties***/
+
+.heading{
+    color:darkblue;
+
+    
+    
+}
+
+/***div of the content such as (Fly To The Limit is a small start airline )*****/
+
+#companyoverview{
+    height:10em;
+    
+}
+
+/*** staff main tile applies to each one"*****/
+#meetourstaff{
+   width:51em;
+   margin:0 auto;
+}
+
+.staff{
+    border-style: groove;
+    border-width: thin;
+    display:inline-block;
+    height:13em;
+    width:22em;
+    margin:1em;
+    background-color: white;
+    
+}
+
+.hansblock {
+   display:inline-block;
+  
+  
+}
+.wenblock {
+   display:inline-block;
+}
+.johnblock{
+   display:inline-block;
+}
+.finnblock{
+   display:inline-block;
+}
+/*** class of staff photo that applies to each one****/
+.staffphoto{
+    width:10em;
+    height:8em;
+    padding-left:0.5em;
+}
+.staffname{
+   color: darkblue;
+   padding-left:0.5em;
+ }
+.stdes{
+  width: 10em;
+}
+
+
+
+
+
+
+
+
+/***main conatiner on the main flight page****/
+#mnflight{
+    background-color:lightgrey;
+    width:51em;
+    height:49.3em;
+    margin:0 auto;
+    
+}
+
+/*** propertiesof big tile of the flight inforamtion in white color****/
+.bacflight{
+    background-color:white;
+    position:relative;
+    width:49em;
+    height:14.5em;
+    left:1em;
+    top:1em;
+    
+}
+/***size of flight photo****/
+.flightphoto{
+    width:25em;
+    height:13em;
+    position: relative;
+    top:0.8em;
+    left:1em;
+}
+/**** properties for the content*****/
+.flightcontent{
+    position:absolute;
+    left:27em;
+    top:-0.55em;
+    text-align: justify;
+    right:1em;
+    }
+
+.ontop{
+background-color:background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(76,76,76,0.73) 56%, rgba(38,38,38,0.59) 84%, rgba(19,19,19,0.95) 98%, rgba(19,19,19,1) 100%); /* FF3.6+ */
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(76,76,76,1)), color-stop(56%,rgba(76,76,76,0.73)), color-stop(84%,rgba(38,38,38,0.59)), color-stop(98%,rgba(19,19,19,0.95)), color-stop(100%,rgba(19,19,19,1))); /* Chrome,Safari4+ */
+background:-webkit-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(76,76,76,0.73) 56%,rgba(38,38,38,0.59) 84%,rgba(19,19,19,0.95) 98%,rgba(19,19,19,1) 100%); /* Chrome10+,Safari5.1+ */
+background:-o-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(76,76,76,0.73) 56%,rgba(38,38,38,0.59) 84%,rgba(19,19,19,0.95) 98%,rgba(19,19,19,1) 100%); /* Opera 11.10+ */
+background:-ms-linear-gradient(top, rgba(76,76,76,1) 0%,rgba(76,76,76,0.73) 56%,rgba(38,38,38,0.59) 84%,rgba(19,19,19,0.95) 98%,rgba(19,19,19,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(76,76,76,1) 0%,rgba(76,76,76,0.73) 56%,rgba(38,38,38,0.59) 84%,rgba(19,19,19,0.95) 98%,rgba(19,19,19,1) 100%); /* W3C */
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+    color: white;
+    position: relative;
+    width:9em;
+    height:1.5em;
+    right:29.1em;
+    text-align: center;
+    top:-13.5em;
+    
+}
+
+/**** position of scenic tile***/
+#scenic{
+    top:3em;
+    position: relative;
+}
+
+/****position of nelson tile****/ 
+#nelson{
+     position:relative;
+     top:5em;
+     
+    
+}
+/***properties of our gallery****/
+#maingallery{
+    width:860px;
+    height:auto;
+    margin:0 auto;
+
+}
+.ims{
+    width:258px;
+    height:221px;
+    display: inline-block;
+    margin-left:1.2em;
+    padding-bottom:1.5em;
+}
+.gallery{
+  
+    top:2em;
+}
+
+.chgal{
+   top:4em;
+}
+.planes{
+
+    top:6em;
+ }  
+
+/* Conatct us page */
+/*main div with the border style*/
+#maincontact{
+  
+   width:50.8em;
+   height:auto;
+   border-style: groove;
+   left:35em;
+   border-width:thin;
+  
+   margin:0 auto;
+   
+   
+}
+/* blue div*/
+.footwrapper{
+   background-color:darkblue;
+   width:50.8em;
+   height:20em;
+   top:30.9em;
+   
+   
+   
+}
+
+.footcontact{
+   display:inline-block;
+   margin-left:2em;
+   color:blue;
+   alignment-adjust:
+   
+   
+ 
+}
+/*Queenstown box with background color white*/
+.town{
+  
+   text-align: center;
+   width:8em;
+   background-color: white;
+}
+/* wana box with background color*/
+#wana{
+  
+background-color: white;
+text-align: center;
+   
+}
+
+#qu{
+
+color:white;
+
+}
+
+#wa{
+  
+color:white;
+font-size:medium;
+}
+
+#map{
+   
+   right:28em;
+   width:50.9em;
+}
+
+/*site map position*/
+#mainsitemapphoto{
+ margin:0 auto;
+ width:800px;
+}
+
+#site{
+   width:850px;
+   
+}

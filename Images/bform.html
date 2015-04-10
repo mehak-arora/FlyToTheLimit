@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+             <script src="scripts/datetimepicker_css.js"></script>
+             <script src="scripts/Fttl.js"></script>
+             <script src="scripts/bookform.js"></script>
+            <link rel= "stylesheet" href="assets/css/normalize.css">
+            <link rel= "stylesheet" href="assets/css/main.css">  
+            <link rel= "stylesheet" href="assets/css/Homepage.css">
+            <link rel= "stylesheet" href="assets/css/form.css">
+               
+        </head>
+        <body>
+             <header>
+            <img src="./Images/finallogo.png" id="logo">
+                  <div id="contact">
+                    <div><img src="./Images/phone.png" class="headerphone"  id="ph"><p class="headerphone" id="connum">0800 800000</p></div>
+                    <div><img src="./Images/mail.png" class="headermail" id="mail"><p class="headermail"id="conmail">sas@vv.com</p></div>
+                    </div>
+                  <div id="hbar"></div>
+            </header>
+                  
+            <div id="container">
+                  <div class= "mainmenu" id="menu">
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="company.html">About Us</a></li>
+                        <li><a href="flights.html">Flights</a></li>
+                        <li><a href="bform.html">Bookings</a></li>
+                        <li><a href="ourgallery.html">Our Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                  
+                  
+                  
+           
+            <div id="formbook">
+                 <h2 class="no" id="now">Book Now</h2>
+                <div id="book">
+                        
+                        <p class="detail" id="ppd">Principal Passenger Details<br>
+                        <hr class="line" id="line1"></p>
+                        </div>
+                    
+                    <div class="blocks" id="la">
+                        <label id="first">First Name*</label><br><br><br>
+                        <label id="email">Email*</label><br><br><br>
+                        <label id="pass">Number of Passengers*</label><br>
+                    </div>
+                    
+                    <div class="blocks" id="userdetail">
+                        <input type="text" name="fname" id="firstname" ><span id ="alert"class="req"></span><br><br><br>
+                        <input type="Email" name="nuo" id="eme" ><span id="emailalert"class="req"></span><br><br><br>
+                        <input type="text" name="nu" id="num" required><span id="numalert"class="req"></span><br><br><br>
+                    </div>
+                    
+                    
+                    <div class="blocks" id="lat">
+                        <label id="last">Last Name*</label><br><br><br>
+                        <label id="phone">Phone Number</label><br><br><br>
+                        <label id="Mobile">Mobile Number*</label>
+                    </div>
+                    
+                   
+                    <div class="blocks" id="userdatailtwo">
+                        <input type="text" name="lname" id="lastname"><span id ="lastnamealertmes"class="req"></span><br><br><br>
+                        <input type="text" name="phone" id="phonenum"><span id ="phonealertmes"class="req"></span><br><br><br>
+                        <input type="text" name="mobile" id="mobilenum" required><span class="req"></span><br><br><br>
+                    </div>
+                   
+                    <div class="blocks" id="secpart">
+                        <p class="detail" id="enq">Booking Enquiry Details</p>
+                     </div>
+                     <hr id="line2">
+                         <h4>Book or enquire*</h4>
+                    <div class="blocks" id="bu">
+                        <form name="bookorenquire" required> 
+                        <input type="radio" name="enquire" id="fradio"checked><br><br>
+                        <input type="radio" name="enquire" id="sradio" >
+                        </form>
+                     </div>
+                    
+                    <div class="blocks" id ="booklabel">
+                        <label id="b">Book</label><br><br>
+                        <label id="e">Enquire</label>
+                    </div>
+                   
+    
+                    <div class="blocks" id="name">
+                         <p>Flight*</p>
+                         <p id="red">(Date Time Required)*</p>
+                         <p id="bformcommentlabel">Remarks</p>
+                     </div>
+                    
+                    
+                    <div class="blocks" id="lab">
+                        <label id="mn">Happy Walk Flight(Trampers)<br><br></label>
+                        <label id="nm">Scenic Flight<br><br></label>
+                        <label id="af">Adventure Flight<br><br></label>
+                    </div>
+                    
+                    <div class="blocks" id="cbox">   
+                        <form id="reqcheckbox" required>
+                        <input type="checkbox" name="hflight" id="happy" required data-checkdate="happpydatetime"><br><br>
+                        <input type="checkbox" name="sflight" id="Scenic" required data-checkdate="scenicdt"><br><br><br>
+                        <input type="checkbox" name="aflight" id="adventure" required data-checkdate="advdt"><br>
+                        </form>
+                    </div>
+                   
+                   <div class="blocks" id="dateinput">
+                    
+                        <input type="Text" name="datim" id="happpydatetime" ><span class="req"></span>
+                            <img src="./Images/images2/cal.gif" onclick="javascript:NewCssCal('happpydatetime','ddMMyyyy','arrow','true','12',false,'future')" style="cursor:pointer"/><br><br>
+                        <input type="Text" name="datim" id="scenicdt" ><span class="req"></span>
+                            <img src="./Images/images2/cal.gif" onclick="javascript:NewCssCal('scenicdt','ddMMyyyy','arrow','true','12',false,'future')" style="cursor:pointer"/><br><br>
+                        <input type="Text" name="datim" id="advdt"><span class="req"></span>
+                            <img src="./Images/images2/cal.gif" onclick="javascript:NewCssCal('advdt','ddMMyyyy','arrow','true','12',false,'future')" style="cursor:pointer"/><br><br>
+                            
+                    </div>   
+                   <div class="blocks" id="dateinput">
+                    <textarea name="message" id="bformremark" rows="5" cols="54" maxlength="2000" placeholder="Remarks" required></textarea>  
+                    </div>   
+                    
+                   
+                    <!---radio buttons p.s name should be the same--->
+                    <div class="blocks" id="sub">   
+                        <input type="submit" class="sub" id="formsubmit" value="Submit" disabled>
+                    </div>
+                    
+                 </div>
+            </div>           
+
+                    
+              <!--------------footer menu and Address------------------->
+            
+              <footer>
+                <div class="footerwrapper">
+                <div class="fmenu" id="fomenu"> 
+                    <ul>
+                        <li>Terms</a></li>
+                        <li>PrivacyPolicy</a></li>
+                        <li id="sitemapphoto"><a href="site.html">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class= "fmenu" id="fooad"> 
+                    <p>Address</p>
+                    <p>258,Eighty Eight Valley Road,Wakefield,Nelson,New Zealand</p>
+                
+                </div>
+            </div>
+        </footer>
+             
+        </body>
+    </html>
+
+
